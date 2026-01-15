@@ -30,7 +30,7 @@ public class CarPrinter {
 
     public static void printAllCars(String response) {
         if (response == null || response.isBlank()) {
-            System.out.println("No cars found");
+            System.out.println("No cars found ");
             return;
         }
 
